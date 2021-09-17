@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 {
+    text-align: center;
+    
+}
+
+td, th {
+    border: 1px solid grey;
+    text-align: center;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #aaa9a9;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+.box {
+    border: 1px #000 solid;
+    width: 1000px;
+    padding: 50px;
+    margin-left: 1;
+    
+}
+
+main {
+    text-align: center;
+    margin-top: auto;
+}
+
+.container {
+    width: 100vw;
+    height: 65vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
